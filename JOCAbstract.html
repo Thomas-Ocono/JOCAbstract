@@ -9,41 +9,40 @@
   <body>
     <div id="navbar-div">
       <div id="logo">
-        <img
-          src="https://sdmntprsouthcentralus.oaiusercontent.com/files/00000000-1328-61f7-9f4d-0bf9a81a9740/raw?se=2025-08-07T17%3A25%3A07Z&sp=r&sv=2024-08-04&sr=b&scid=3580461a-d191-5d84-ae85-94db2330e646&skoid=24a7dec3-38fc-4904-b888-8abe0855c442&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-06T20%3A02%3A06Z&ske=2025-08-07T20%3A02%3A06Z&sks=b&skv=2024-08-04&sig=CRY5VYOopMAIyDPv844v4UQOklcpv0Z7cGgkD1kSUq8%3D"
-        />
+        <img src="JOC-Logo.png"/>
       </div>
       <ul>
-        <li>Home</li>
-        <li>Services</li>
-        <li>About</li>
-        <li>Contact</li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services-title">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </div>
     <div id="home">
       <h1>Trusted Title</h1>
       <h1>Examination Services</h1>
       <h2>Accurate. Efficient. Local expertise you can count on.</h2>
+      <a href='#contact'><button id="inTouch">Request a Search</button></a>
     </div>
       <h1 id="services-title">Services</h1>
       <div id="services-div">
-      <div id="title-exams">
+      <div class="services">
         <h2>Title Exams</h2>
         <img src="scrutiny.png">
         <p>Thorough search of legal documents for record of ownership and liens</p>
       </div>
-      <div id="document-retrieval">
+      <div class="services">
         <h2>Document Retrival</h2>
         <img src="publishing.png">
         <p>Quick access to all documents relating to the property</p>
       </div>
-      <div id="property-search">
+      <div class="services">
         
         <h2>Property Search</h2>
         <img src="search-address.png">
         <p>Full recordings of legal history of a property</p>
       </div>
-      <div id="title-reports">
+      <div class="services">
       
         <h2>Title Reports</h2>
         <img src="result.png">
@@ -53,8 +52,38 @@
 
       </div>
     </div>
+    <div id="about">
+      <div id="about-sections">
+        <div id="picture"></div>
+        <img id='city-picture' src="liberty.png"/>
+        <div id="sections">
+          <div id="about-header">
+            <h1>About JOC Abstract</h1>
+          </div>
+          <div id="paragraph">
+            <p>With years of experience in title examination, JOC Abstract is committed to precision and speed. Serving the Bronx and Queens, one title at a time.</p>
+          </div>
+          <div id="about-footer">
+            <h3>(123)-456-7890</h3>
+            <h3>FakeEmail@jocabstract.com</h3>
+          </div>
+        </div>
+      </div>
 
-    <div id="contact"></div>
+    </div>
+
+    <div id="contact">
+      <h1 id="contact-title">Contact</h1>
+      <input placeholder="Name">
+      <br />
+      <input placeholder="E-mail">
+      <br />
+      <input placeholder="Property Address">
+      <br />
+      <textarea placeholder="Message"></textarea>
+      <br />
+      <button>Send</button>
+    </div>
     <script src="scripts.js"></script>
   </body>
 </html>

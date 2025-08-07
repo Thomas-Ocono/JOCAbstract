@@ -2,10 +2,20 @@
   --blue: #090d2c;
   --white: #ffffff;
   --skyBlue: #b9cbee;
+  --buttonBlue: #37599c;
   --charcoal: #333333;
+  scroll-behavior: smooth;
 }
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:visited {
+  color: black;
+  text-decoration: none;
 }
 #navbar-div {
   display: flex;
@@ -57,6 +67,21 @@ li:hover {
 #home h2 {
   font-size: 2.5rem;
 }
+button {
+  background-color: var(--buttonBlue);
+  color: var(--white);
+  border-radius: 0.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-size: 1rem;
+  border: none;
+}
+button:hover {
+  background-color: var(--white);
+  color: var(--charcoal);
+}
 #services-title {
   font-size: 2.5rem;
   text-align: center;
@@ -70,39 +95,61 @@ li:hover {
   justify-content: center;
   margin: auto;
 }
-#services-div h2 {
+.services {
+  width: 30%;
+}
+.services h2 {
+  height: 4rem;
+  text-align: center;
   font-size: 2rem;
+  padding: 1.5rem;
 }
-#services-div p {
-  font-size: 1.5rem;
+.services img {
+  height: 40%;
+  width: 12rem;
+  margin-left: 1rem;
 }
-#title-exams {
+.services p {
+  height: 5rem;
+  font-size: 1.2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
   text-align: center;
-  width: 25%;
 }
-#title-exams img {
-  width: 10rem;
+#about-sections {
+  display: flex;
+  flex-direction: row;
+  margin-left: 15rem;
+  margin-right: 17rem;
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+}
+#city-picture {
+  height: 100%;
+  width: 40%;
+  margin-right: 7rem;
+}
+#contact {
+  border-radius: 0.25rem;
+  width: 50%;
+  margin: auto;
+  padding: 2rem;
+  border: solid 1px black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#contact-title {
+  margin-left: 4rem;
+  margin-bottom: 3rem;
+}
+#contact input {
+  margin-bottom: 1rem;
+  width: 75%;
+  font-size: 1rem;
+}
+#contact textarea {
   height: 10rem;
-}
-#document-retrieval {
-  text-align: center;
-  width: 25%;
-}
-#document-retrieval img {
-  margin-right: 4.5rem;
-  width: 10rem;
-  height: 10rem;
-}
-#property-search {
-  text-align: center;
-  width: 25%;
-}
-#property-search img {
-  margin-right: 2.5rem;
-  width: 10rem;
-  height: 10rem;
-}
-#title-reports {
-  text-align: center;
-  width: 15%;
+  font-size: 1rem;
+  width: 75%;
+  margin-bottom: 1.2rem;
 }
