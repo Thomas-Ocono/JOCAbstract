@@ -37,6 +37,7 @@ ul {
   margin: 0;
   justify-content: right;
 }
+
 li {
   padding: 1rem;
   text-align: center;
@@ -45,6 +46,7 @@ li {
   margin-top: auto;
   margin-bottom: auto;
 }
+
 li:hover {
   background-color: var(--skyBlue);
   color: var(--charcoal);
