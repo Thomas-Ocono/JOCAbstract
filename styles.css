@@ -156,6 +156,7 @@ nav ul li:last-child {
   margin-top: 5%;
   margin-bottom: 0;
   padding: 0.2rem;
+  padding-bottom: 10vh;
 }
 #about-text {
   display: flex;
@@ -164,12 +165,12 @@ nav ul li:last-child {
 }
 #about-img {
   display: block;
-  width: 35%;
-  height: 90%;
-  max-width: 27rem;
+  width: min(30vw, 20rem);
+  height: auto;
   border-radius: 4rem;
   filter: drop-shadow(2px 2px 2px);
-  margin-bottom: 10%;
+  margin-bottom: auto;
+  margin-top: auto;
   margin-right: 12%;
   margin-left: 5%;
 }
@@ -180,10 +181,12 @@ nav ul li:last-child {
   width: 60%;
 }
 #about-text p {
-  font-size: min(2.4vw, 2rem);
+  font-size: min(3.5vw, 2rem);
   display: flex;
   flex-wrap: wrap;
   width: 65%;
+  margin-top: 4vh;
+  margin-bottom: 4vh;
 }
 #about-text h3 {
   font-size: min(3.4vw, 2.5rem);
