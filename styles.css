@@ -56,7 +56,7 @@ nav ul li:last-child {
 }
 
 #home {
-  background-color: var(--skyBlue);
+  background: linear-gradient(170deg, var(--skyBlue), var(--buttonBlue));
   height: 90vh;
   border-bottom: 5px solid var(--blue);
 }
@@ -97,28 +97,79 @@ nav ul li:last-child {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  padding-bottom: 4rem;
+  border-bottom: 5px solid var(--blue);
 }
 .service-card {
   display: flex;
   flex-direction: column;
   width: 20rem;
   margin: auto;
-  height: 25rem;
-  width: 20rem;
+  height: 28rem;
   margin-top: 2rem;
   align-items: center;
   border: 5px solid var(--blue);
   border-radius: 1rem;
 }
+.service-card:hover {
+  background-color: var(--skyBlue);
+}
 .service-card h2 {
   font-size: min(7vw, 2rem);
   text-align: center;
+  margin: 1rem;
 }
 .service-card p {
-  font-size: min(6vw, 1.3rem);
+  font-size: min(6vw, 1.2rem);
   text-align: center;
+  margin: 1rem;
 }
 .service-card img {
   height: 15rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
+}
+#about-sections {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90vw;
+  height: 45vh;
+  margin: auto;
+  margin-top: 5%;
+  padding: 0.2rem;
+}
+#about-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#about-img {
+  display: block;
+  width: 35%;
+  height: 90%;
+  max-width: 27rem;
+  border-radius: 4rem;
+  filter: drop-shadow(2px 2px 2px);
+  margin-bottom: 10%;
+  margin-right: 12%;
+  margin-left: 5%;
+}
+#about-text h2 {
+  font-size: min(7vw, 4rem);
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+}
+#about-text p {
+  font-size: min(3vw, 2rem);
+  display: flex;
+  flex-wrap: wrap;
+  width: 65%;
+}
+#about-text h3 {
+  font-size: min(3vw, 2.5rem);
+}
+#info-section {
+  margin-top: auto;
+  margin-bottom: auto;
 }
