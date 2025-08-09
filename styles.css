@@ -99,6 +99,7 @@ nav ul li:last-child {
   flex-wrap: wrap;
   padding-bottom: 4rem;
   border-bottom: 5px solid var(--blue);
+  justify-content: center;
 }
 .service-card {
   display: flex;
@@ -128,6 +129,23 @@ nav ul li:last-child {
   height: 15rem;
   margin-bottom: 1.5rem;
 }
+@media (max-width: 700px) {
+  .service-card {
+    height: 15rem;
+    width: 10rem;
+    margin: 0.2rem;
+  }
+  .service-card img {
+    height: 6rem;
+    margin-bottom: 0.7rem;
+  }
+  .service-card h2 {
+    font-size: 1.2rem;
+  }
+  .service-card p {
+    font-size: 0.6rem;
+  }
+}
 #about-sections {
   display: flex;
   flex-direction: row;
@@ -136,6 +154,7 @@ nav ul li:last-child {
   height: 45vh;
   margin: auto;
   margin-top: 5%;
+  margin-bottom: 10%;
   padding: 0.2rem;
 }
 #about-text {
@@ -155,21 +174,44 @@ nav ul li:last-child {
   margin-left: 5%;
 }
 #about-text h2 {
-  font-size: min(7vw, 4rem);
+  font-size: min(5.8vw, 4rem);
   display: flex;
   flex-wrap: wrap;
   width: 60%;
 }
 #about-text p {
-  font-size: min(3vw, 2rem);
+  font-size: min(2.4vw, 2rem);
   display: flex;
   flex-wrap: wrap;
   width: 65%;
 }
 #about-text h3 {
-  font-size: min(3vw, 2.5rem);
+  font-size: min(2.6vw, 2.5rem);
 }
 #info-section {
   margin-top: auto;
   margin-bottom: auto;
+}
+#contact {
+  margin-top: 20vh;
+  width: 80vw;
+  height: 40vh;
+  border: 3px solid var(--blue);
+  margin: auto;
+}
+#contact h1 {
+  font-size: min(7vw, 3rem);
+  text-align: left;
+  margin-left: 25%;
+}
+#contact form {
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  width: 40vw;
+  margin-left: 1vw;
+  margin-right: 40vw;
+}
+#contact input {
+  margin-left: 10vw;
 }
