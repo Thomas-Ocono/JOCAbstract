@@ -191,7 +191,7 @@ nav ul li:last-child {
 #about-text h3 {
   font-size: min(3.4vw, 2.5rem);
 }
-#contact-div {
+#contact {
   width: 75vw;
   margin-left: auto;
   margin-right: auto;
