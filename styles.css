@@ -154,7 +154,7 @@ nav ul li:last-child {
   height: 45vh;
   margin: auto;
   margin-top: 5%;
-  margin-bottom: 10%;
+  margin-bottom: 0;
   padding: 0.2rem;
 }
 #about-text {
@@ -186,32 +186,58 @@ nav ul li:last-child {
   width: 65%;
 }
 #about-text h3 {
-  font-size: min(2.6vw, 2.5rem);
+  font-size: min(3.4vw, 2.5rem);
 }
-#info-section {
-  margin-top: auto;
-  margin-bottom: auto;
-}
-#contact {
-  margin-top: 20vh;
-  width: 80vw;
-  height: 40vh;
+#contact-div {
+  width: 75vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10vh;
   border: 3px solid var(--blue);
-  margin: auto;
+  border-radius: 5px;
+  margin-bottom: 10vh;
 }
-#contact h1 {
-  font-size: min(7vw, 3rem);
-  text-align: left;
-  margin-left: 25%;
+#contact-text {
+  margin-right: 40vw;
+  margin-left: 10vw;
 }
-#contact form {
+#contact-form {
   display: flex;
   flex-direction: column;
-  height: 50vh;
-  width: 40vw;
-  margin-left: 1vw;
-  margin-right: 40vw;
+  margin-bottom: 10vh;
 }
-#contact input {
-  margin-left: 10vw;
+#contact-form input {
+  margin: 1vh;
+  margin-left: 5vw;
+  margin-right: 20vw;
+  font-size: min(5vw, 1.2rem);
+  border: 1px solid var(--blue);
+  border-radius: 4px;
+  text-indent: 0.35vw;
+}
+#contact-form textarea {
+  margin: 1vh;
+  margin-left: 5vw;
+  margin-right: 15vw;
+  font-size: min(5vw, 1.2rem);
+  height: 15vh;
+  border: 1px solid var(--blue);
+  border-radius: 4px;
+  text-indent: 0.35vw;
+}
+#contact-form button {
+  margin: 1vh;
+  margin-left: 5vw;
+  color: white;
+  background-color: var(--buttonBlue);
+  font-size: min(4vw, 1.2rem);
+  width: 20vw;
+  height: 4vh;
+  border-radius: 0.5rem;
+  border: none;
+  margin-top: 2vh;
+}
+#contact-form button:hover {
+  color: black;
+  background-color: var(--white);
 }
