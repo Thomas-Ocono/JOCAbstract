@@ -118,7 +118,7 @@ nav ul li:last-child {
   border-radius: 1rem;
 }
 .service-card:hover {
-  background-color: var(--skyBlue);
+  background-color: rgb(223, 247, 255);
 }
 .service-card h2 {
   font-size: min(7vw, 2rem);
@@ -159,7 +159,7 @@ nav ul li:last-child {
   height: 45vh;
   margin: auto;
   margin-top: 5%;
-  margin-bottom: 0;
+  margin-bottom: 10%;
   padding: 0.2rem;
   padding-bottom: 10vh;
 }
@@ -197,7 +197,7 @@ nav ul li:last-child {
   font-size: min(3.4vw, 2.5rem);
 }
 #contact {
-  width: min(75vw, 50rem);
+  width: min(75vw, 45rem);
   margin-left: auto;
   margin-right: auto;
   margin-top: 10vh;
@@ -217,7 +217,7 @@ nav ul li:last-child {
 #contact-form input {
   margin: 1vh;
   margin-left: 5vw;
-  margin-right: 20vw;
+  margin-right: 15vw;
   font-size: min(5vw, 1.2rem);
   border: 1px solid var(--blue);
   border-radius: 4px;
@@ -239,7 +239,7 @@ nav ul li:last-child {
   color: white;
   background-color: var(--buttonBlue);
   font-size: min(4vw, 1.2rem);
-  width: 20vw;
+  width: min(25vw, 10rem);
   height: 4vh;
   border-radius: 0.5rem;
   border: none;
