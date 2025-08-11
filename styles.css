@@ -73,11 +73,16 @@ nav ul li:last-child {
   margin-left: min(10vw, 5rem);
   color: var(--blue);
 }
+#home h3 {
+  font-size: min(5vw, 2.8rem);
+  margin-left: min(10vw, 5rem);
+  color: var(--blue);
+}
 #request-btn {
   color: var(--white);
   background-color: var(--buttonBlue);
   margin-left: min(12vw, 5rem);
-  font-size: min(4vw, 2rem);
+  font-size: min(4vw, 1.5rem);
   margin-top: min(8vw, 2rem);
   padding: 10px;
   border-radius: 10px;
@@ -192,7 +197,7 @@ nav ul li:last-child {
   font-size: min(3.4vw, 2.5rem);
 }
 #contact {
-  width: 75vw;
+  width: min(75vw, 50rem);
   margin-left: auto;
   margin-right: auto;
   margin-top: 10vh;
